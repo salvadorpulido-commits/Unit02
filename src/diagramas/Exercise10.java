@@ -41,7 +41,7 @@ public class Exercise10 {
 					
 		}
 		
-		System.out.println(horas + ":" minutos + ":" segundos);
+		System.out.println( horas + ":" minutos + ":" segundos );
 	
 	reader.close();
 	
