@@ -12,8 +12,7 @@ public class Exercise05 {
 		 * El juego debe mostrar por pantalla quién ha ganado el juego tras jugar una partida. 
 		 * Hay que contemplar el caso de que empaten.
 		 */
-		
-		
+				
 		//Declaramos variables y constantes
 		final String PIEDRA = "PIEDRA";
 		final String PAPEL = "PAPEL";
@@ -25,7 +24,6 @@ public class Exercise05 {
 		Scanner reader = new Scanner(System.in);
 		jugada1 = reader.next();
 		jugada2 = reader.next();
-		
 		
 		//Comenzamos jugadas e imprimimos resultados
 		if (jugada1.equals(jugada2)) {
@@ -44,7 +42,8 @@ public class Exercise05 {
 		} else {
 			System.out.println("Alguno de los jugadores no ha escrito correctamente PIEDRA, PAPEL o TIJERAS.");
 		 }
-				//Cerramos Scanner	
+		
+		//Cerramos Scanner	
 				reader.close();
 				}
 			}
