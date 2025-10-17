@@ -40,7 +40,7 @@ public class Exercise05 {
 		} else if (jugada2.equals("TIJERAS") && jugada1.equals("PAPEL")) {
 			System.out.println("Gana el jugador 2");
 		} else {
-			System.out.println("Alguno de los jugadores no ha escrito correctamente PIEDRA, PAPEL o TIJERAS.");
+			System.out.println("Error al escribir PIEDRA, PAPEL o TIJERAS.");
 		 }
 		
 		//Cerramos Scanner	
