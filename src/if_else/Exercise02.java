@@ -26,7 +26,9 @@ public class Exercise02 {
         // Verificar si es un número casi-cero
         
         if (numero > -1 && numero < 1 && numero != 0) {
+        	
             System.out.println("El número " + numero + " es un número casi-cero.");
+            
         } else {
             System.out.println("El número " + numero + " NO es un número casi-cero.");
         }

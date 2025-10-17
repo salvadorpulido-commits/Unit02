@@ -8,6 +8,8 @@ public class Exercise02 {
 	
 		// Abrimos scanner
 		Scanner reader = new Scanner(System.in);
+		
+		//Variable edad
 	    int edad;
 	    
 	 	// Pedimos introducir edad

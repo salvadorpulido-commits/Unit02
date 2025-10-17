@@ -23,8 +23,7 @@ public class Exercise10 {
 				
 		if(segundos < 59) {
 			segundos++;
-			
-		} else {
+			} else {
 			segundos = 0;
 			if(minutos < 59) {
 				minutos++;
@@ -41,7 +40,7 @@ public class Exercise10 {
 					
 		}
 		
-		System.out.println( horas + ":" minutos + ":" segundos );
+		System.out.println( horas + ":" + minutos + ":" + segundos );
 	
 	reader.close();
 	
