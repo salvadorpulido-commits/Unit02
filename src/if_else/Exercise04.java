@@ -11,15 +11,25 @@ public class Exercise04 {
 		 * que está comprendido entre 0 y 99999. 
 		 */
 		
+		//Declaramos variable
+		
 		int number;
-				
+		
+		//Abrimos Scanner
+		
 		Scanner reader = new Scanner(System.in);
+		
+		
+		//Solicitamos que intoduzca numero
 		
 		System.out.println("Introduzca un numero");
 		number = reader.nextInt();
 		
+		//Calcula e imprime resultado
+		
 		if(number < 0 || number > 99999) {
 			System.out.println("Numero incorrecto");
+		
 		} else if (number < 10 ) {
 			System.out.println("Tiene un cifra");
 				
