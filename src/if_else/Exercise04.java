@@ -3,13 +3,15 @@ package if_else;
 import java.util.Scanner;
 
 public class Exercise04 {
+	
+	/*
+	 * Escribir una aplicación que indique cuántas cifras tiene 
+	 * un número introducido por teclado, 
+	 * que está comprendido entre 0 y 99999. 
+	 */
 
 	public static void main(String[] args) {
-		/*
-		 * Escribir una aplicación que indique cuántas cifras tiene 
-		 * un número introducido por teclado, 
-		 * que está comprendido entre 0 y 99999. 
-		 */
+	
 		
 		//Declaramos variable
 		
