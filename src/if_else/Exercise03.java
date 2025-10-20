@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Exercise03 {
 
 	public static void main(String[] args) {
+		
+		//Declaramos variables
+		
 		int a;
 		int b;
 		int c;
@@ -13,8 +16,11 @@ public class Exercise03 {
 		double x2;
 		double discriminante;
 		
+		//Abrimos Scanner
 		
 		Scanner reader = new Scanner(System.in);
+		
+		//Solicitamos los coeficientes
 		
 		System.out.println("Introduzca los coeficientes de la ecuacion");
 		a = reader.nextInt();

@@ -3,6 +3,11 @@ package diagramas;
 import java.util.Scanner;
 
 public class Exercise01 {
+	
+	/**
+	 * Dibuja un ordinograma de un programa que pide la edad por teclado
+	 *  y nos muestra el mensaje de “Eres mayor de edad” solo si lo somos.
+	 */
 
 	public static void main(String[] args) {
 		// Declaramos variable

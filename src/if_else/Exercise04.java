@@ -3,23 +3,35 @@ package if_else;
 import java.util.Scanner;
 
 public class Exercise04 {
+	
+	/*
+	 * Escribir una aplicación que indique cuántas cifras tiene 
+	 * un número introducido por teclado, 
+	 * que está comprendido entre 0 y 99999. 
+	 */
 
 	public static void main(String[] args) {
-		/*
-		 * Escribir una aplicación que indique cuántas cifras tiene 
-		 * un número introducido por teclado, 
-		 * que está comprendido entre 0 y 99999. 
-		 */
+	
+		
+		//Declaramos variable
 		
 		int number;
-				
+		
+		//Abrimos Scanner
+		
 		Scanner reader = new Scanner(System.in);
+		
+		
+		//Solicitamos que intoduzca numero
 		
 		System.out.println("Introduzca un numero");
 		number = reader.nextInt();
 		
+		//Calcula e imprime resultado
+		
 		if(number < 0 || number > 99999) {
 			System.out.println("Numero incorrecto");
+		
 		} else if (number < 10 ) {
 			System.out.println("Tiene un cifra");
 				
