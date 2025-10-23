@@ -4,15 +4,6 @@ import java.util.Scanner;
 
 public class Exercise01 {
 	
-	/*
-	 * PRUEBAS MÍNIMAS A REALIZAR:
-	 * 
-	 * ENTRADA: 22 : RESULTADO ESPERADO: Es capicúa : RESULTADO OBTENIDO: Es capicúa
-	 * ENTRADA: 12321 : RESULTADO ESPERADO: Error (fuera de rango) : RESULTADO OBTENIDO: Error (fuera de rango)
-	 * ENTRADA: 1221 : RESULTADO ESPERADO: Es capicúa : RESULTADO OBTENIDO: Es capicúa
-	 * ENTRADA: 1234 :RESULTADO ESPERADO: No es capicúa : RESULTADO OBTENIDO: No es capicúa
-	 * ENTRADA: -10 : RESULTADO ESPERADO: Error (fuera de rango) : RESULTADO OBTENIDO: Error (fuera de rango)
-	 */
 	
 	/*
 	 * Escribe una aplicación que solicite al usuario un número comprendido entre 0 y 9999. 
