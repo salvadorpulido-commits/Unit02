@@ -1,6 +1,6 @@
 package diagramas;
 
-import.java.util.Scanner;
+import java.util.Scanner;
 
 public class Exercise04 {
 
@@ -35,8 +35,5 @@ public class Exercise04 {
 		        
 		        reader.close();
 		    }
-		}
-
+	
 	}
-
-}
