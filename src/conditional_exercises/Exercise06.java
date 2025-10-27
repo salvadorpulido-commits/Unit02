@@ -27,7 +27,13 @@ public class Exercise06 {
       - Esperado: error (año inválido)
       - Obtenido: error (año inválido)
     */
-
+	
+	    int mes;
+	    int año;
+	    int dias;
+	    boolean bisiesto;
+	    
+	   
     public static void main(String[] args) {
         // Crear Scanner llamado 'reader' para leer desde teclado
         Scanner reader = new Scanner(System.in);
@@ -53,10 +59,10 @@ public class Exercise06 {
 
             // Determinar los días según el mes
             switch (mes) {
-                case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+                case 1, 3, 5, 7, 8, 10, 12:
                     dias = 31; // Meses con 31 días
                     break;
-                case 4: case 6: case 9: case 11:
+                case 4, 6, 9, 11:
                     dias = 30; // Meses con 30 días
                     break;
                 case 2:
