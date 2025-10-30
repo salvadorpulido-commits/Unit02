@@ -5,14 +5,19 @@ import java.util.Scanner;
 public class Exercise01 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		//Variables
 		int option;
 		String answer;
 		
 		double totalPrice = 375.99;
 		final double SCREEN_38 = 75.99;
 		final double SCREEN_43 = 99.99;
+		
+		//Abrimos Scanner
 		Scanner reader = new Scanner(System.in);
+		
+		//Pedimos al usuario que elija una de loas dos opciones
 		
 		System.out.println("Which screen do you prefeer?");
 		System.out.println("1. 38cm " + SCREEN_38);
@@ -28,7 +33,7 @@ public class Exercise01 {
 	    	totalPrice += SCREEN_43;	
 	    	break;
 	    }
-	    
+	    //Pedimos al usuario si quiere un antivirus y que elija una de las dos opciones
 	    System.out.println("Do you want an antivirus software (Y / N)");
 	    answer = reader.next();
 	    
