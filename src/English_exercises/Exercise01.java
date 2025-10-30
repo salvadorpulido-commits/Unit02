@@ -23,10 +23,10 @@ public class Exercise01 {
 	    
 	    case 1:
 	    	totalPrice += SCREEN_38;
-	    	
+	    	break;
 	    case 2:
 	    	totalPrice += SCREEN_43;	
-	    	
+	    	break;
 	    }
 	    
 	    System.out.println("Do you want an antivirus software (Y / N)");
