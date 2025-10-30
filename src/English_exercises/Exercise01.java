@@ -41,7 +41,7 @@ public class Exercise01 {
 	    	totalPrice += 125;
 	    	
 	    }
-	    
+	    //Devolvemos resultado
 		System.out.println("Total price: " + totalPrice);
 		
 		
