@@ -35,7 +35,7 @@ public class Ejercicio03 {
 	    suma = reader.nextInt(); 
 	    		
 	    reader.close();
-	    
+	   
 	    }
 
 	}
