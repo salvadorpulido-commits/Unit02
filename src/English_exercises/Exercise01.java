@@ -34,19 +34,25 @@ public class Exercise01 {
 	    	break;
 	    }
 	    //Pedimos al usuario si quiere un antivirus y que elija una de las dos opciones
-	    System.out.println("Do you want an antivirus software (Y / N)");
-	    answer = reader.next();
-	    
-	    if(answer.equalsIgnoreCase("Y")) {
-	    	totalPrice += 125;
-	    	
-	    }
-	    //Devolvemos resultado
+	    System.out.println("Do you want antivirus software? (Y / N)");
+		answer = reader.next();
+		
+		if(answer.equalsIgnoreCase("Y")) {
+			totalPrice += 65.99;
+		}
+		
+		System.out.println("Do you want a printer? (Y / N)");
+		answer = reader.next();
+		
+		if(answer.equalsIgnoreCase("Y")) {
+			totalPrice += 125;
+		}
+		
+		//Devolvemos resultado
 		System.out.println("Total price: " + totalPrice);
 		
-		
 		reader.close();
-		
+
 	}
 
 }
