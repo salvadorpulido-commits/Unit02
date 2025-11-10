@@ -27,7 +27,7 @@ public class Exercise03 {
 			numero = reader.nextInt();
 		
 		//Contamos desde 1 hasta numero incluido
-		for(int contador = 1; contador <=numero; contador++) {
+		for(contador = 1; contador <=numero; contador++) {
 			if (contador % 3 == 0) {
 				contMult++;
 			}
@@ -37,6 +37,7 @@ public class Exercise03 {
 		System.out.println("Hay " + contMult + " multiplos de 3");
 		
 		//Cierre del scanner
+		
 		reader.close();
 	}
 
