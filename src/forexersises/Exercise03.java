@@ -5,38 +5,38 @@ import java.util.Scanner;
 public class Exercise03 {
 
 	public static void main(String[] args) {
-		// Variable contador
 		
-		int contador;
-		
-		//Variable contar multiplos de 3
-		
-		int contMult = 0;
-				
-		// Numero introducido por el usuario
-		
-		int numero;
-		
+		//Pedir diez números por teclado y mostrar la media.
+
 		// Abrimos Scanner
 		
 		Scanner reader = new Scanner(System.in);
 		
+		//Variables
+		
+		// Declaración de variables
+		
+        int i;
+        double numero;
+        double suma = 0;
+        double media;
+		
 		// Pedimos un numero al usuario
 		
-		System.out.println("Introduzca numero:");
-			numero = reader.nextInt();
-		
-		//Contamos desde 1 hasta numero incluido
-		for(contador = 1; contador <=numero; contador++) {
-			if (contador % 3 == 0) {
-				contMult++;
-			}
-		}
-		
-		// Escribimos el numero de multiplos de 3
-		System.out.println("Hay " + contMult + " multiplos de 3");
-		
-		//Cierre del scanner
+        for (i = 1; i <= 10; i++) {
+            System.out.print("Introduce el número " + i + ": ");
+            numero = reader.nextDouble();
+            suma = suma + numero;
+        }
+        
+        // Calculamos la media
+        media = suma / 10;
+
+        // Mostramos el resultado
+        System.out.println("La media de los 10 números es: " + media);
+
+	
+    	//Cierre del scanner
 		
 		reader.close();
 	}
