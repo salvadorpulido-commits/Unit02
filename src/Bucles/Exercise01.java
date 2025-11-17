@@ -2,7 +2,7 @@ package Bucles;
 
 import java.util.Scanner;
 
-public class Ejercicio01 {
+public class Exercise01 {
 
 	public static void main(String[] args) {
 		/* Escribe un programa que incremente la hora de un reloj. 
