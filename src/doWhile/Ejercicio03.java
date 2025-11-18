@@ -3,39 +3,41 @@ package doWhile;
 import java.util.Scanner;
 
 public class Ejercicio03 {
+	
+	/*Realiza un programa que sume los números desde el 1 
+	 * hasta un número N que se introducirá por teclado. 
+	 * Por ejemplo: Si el usuario introduce un 5, 
+	 * el programa debe devolver la suma de 1+2+3+4+5. 
+	 */
+
 
 	public static void main(String[] args) {
-		// Variable almacenar suma total
+		// Variable donde almacenar la suma total
 		int suma = 0;
-		
-		// Contador que va a ir sumando
+
+		// Contador que se le va a ir sumando a suma
 		int contador = 1;
-		
-		// Numero introducido por ususario
-		
+
+		// Número introducido por el usuario
 		int numero;
-		
+
 		// Creamos scanner
-		
 		Scanner reader = new Scanner(System.in);
+
+		// Le pedimos un número al usuario
+		System.out.println("Introduzca un número");
+		numero = reader.nextInt();
+
+		do {
+			suma += contador;
+			contador++;
+		} while (contador <= numero); // ¡¡¡¡PUNTO Y COMA!!!!
 		
-		// Pedimos numero al usuario
-	    System.out.println("Introduzca un numero ");
-	    numero = reader.nextInt();
-	    
-	    do {
-	    	suma += contador;
-	    	contador++;
-	    } while(numero <= 0); // PUNTO y COMA!!!!
-	    
-	    System.out.println("Introduzca un numero ");
-	    numero = reader.nextInt();
-	    
-	    System.out.println("La suma de los numeros es: ");
-	    suma = reader.nextInt(); 
-	    		
-	    reader.close();
-	   
-	    }
+		System.out.println("La suma total es: " + suma);
+		
+		// Cerramos el scanner
+		reader.close();
 
 	}
+
+}
