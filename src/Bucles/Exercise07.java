@@ -24,7 +24,7 @@ public class Exercise07 {
         // Scanner
         Scanner reader = new Scanner(System.in);
 
-        // Pedimos n
+        // Pedimos numero de filas
         System.out.println("Introduzca un número:");
         n = reader.nextInt();
 
