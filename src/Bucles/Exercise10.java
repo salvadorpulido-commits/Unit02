@@ -3,6 +3,12 @@ package Bucles;
 import java.util.Scanner;
 
 public class Exercise10 {
+	
+	/*Realiza un programa que nos diga si un número 
+	 * introducido por teclado es capicúa o no. 
+	 * El número debe ser mayor o igual que 0.
+	 */
+
 
     public static void main(String[] args) {
 
