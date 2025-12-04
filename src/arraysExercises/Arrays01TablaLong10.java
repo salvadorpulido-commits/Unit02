@@ -1,4 +1,4 @@
-package ArraysExercises;
+package arraysExercises;
 
 
 public class Arrays01TablaLong10 {
