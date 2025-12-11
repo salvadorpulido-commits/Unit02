@@ -52,5 +52,7 @@ public class Arrays07TempMedia {
 	    lector.close();
 	}
 
+ }
+	
 }
 	
