@@ -58,7 +58,7 @@ public class ejercicio02 {
 			
 		}
 		
-		return resultado
+		return resultado;
 
 }
             
